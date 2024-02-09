@@ -8,7 +8,7 @@ int main() {
         for(int i = a; i >= b; i--)
             printf("%d ", i);
     }
-    else if (a < b) {
+    else  {
         for(int i = b; i >= a; i--)
             printf("%d ", i);
     }
