@@ -5,13 +5,12 @@ int main() {
     scanf("%d %d", &a, &b);
 
     for(int i = a; i <= b; i++) {
+        printf("%d ", i);
         if(i % 2 == 1) {
-            printf("%d ", a);
-            a *= 2;
+            i *= 2;
         }
         else {
-            printf("%d ", a);
-            a += 3;
+            i += 3;
         }    
 
     }
