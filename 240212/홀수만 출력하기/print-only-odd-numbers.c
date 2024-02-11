@@ -5,10 +5,10 @@ int main() {
     scanf("%d\n", &n);
 
     for(int i = 1; i <= n; i++) {
-        int n2;
-        scanf("%d\n", &n2);
-        if (n2 % 2 == 1 && n2 % 3 == 0)
-            printf("%d\n", n2);
+        int i;
+        scanf("%d\n", &i);
+        if (i % 2 == 1 && i % 3 == 0)
+            printf("%d\n", i);
     }
     
     return 0;
