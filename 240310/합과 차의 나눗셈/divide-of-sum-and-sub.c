@@ -4,8 +4,7 @@ int main() {
     int a, b;
     scanf("%d %d", &a, &b);
 
-    double c = (a+b)/(a-b);
-    printf("%.2lf", c);
+    printf("%.2lf", (double)(a+b)/(a-b));
     
     return 0;
 }
