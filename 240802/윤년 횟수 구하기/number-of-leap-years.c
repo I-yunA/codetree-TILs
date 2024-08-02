@@ -2,15 +2,14 @@
 
 int main() {
     int n, cnt1;
+    scanf("%d", &n);
     cnt1=0;
 
     for(int i=1; i<=n; i++) 
     {
         if(i%400==0)
             cnt1++;            
-        else if(i%100!=0)
-            cnt1++;
-        else if(i%4==0)
+        else if(i%100!=0 && i%4==0)
             cnt1++;
     }
     printf("%d", cnt1);
